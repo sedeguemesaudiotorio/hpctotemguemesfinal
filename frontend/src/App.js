@@ -82,7 +82,7 @@ function App() {
             toast({
               title: "Información",
               description: "Paciente no cuenta con turno programado. Elegir y dirigirse a la secretaria correspondiente por favor.",
-              variant: "default",
+              variant: "destructive",
               duration: 8000,
             });
           }
