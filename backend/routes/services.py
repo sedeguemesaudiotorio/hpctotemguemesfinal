@@ -2,6 +2,7 @@ from fastapi import APIRouter, HTTPException, Depends, Query, status
 from services.service_log_service import ServiceLogService
 from models.service import ServiceLogCreate, ServiceStats
 from database import get_database
+from typing import Optional
 import logging
 import re
 
